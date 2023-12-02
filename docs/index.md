@@ -8,11 +8,11 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: notes
+      text: NOTES
       link: /notes
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
+    - theme: brand
+      text: ABOUT
+      link: https://gitgeorgec.github.io/Personal_page/
 
 features:
   - title: Leetcode

@@ -26,6 +26,10 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Notes", link: "/notes" },
+      {
+        text: "About",
+        link: "https://gitgeorgec.github.io/Personal_page/",
+      },
     ],
 
     sidebar: [
@@ -37,9 +41,7 @@ export default defineConfig({
     ],
     search: { provider: "local" },
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/gitgeorgec" }],
   },
   base: "/daily_practice/",
 });
