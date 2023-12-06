@@ -5,7 +5,6 @@ layout: home
 hero:
   name: "Daily Practice"
   text: "leetcode and frontend daily practice"
-  tagline: My great project tagline
   actions:
     - theme: brand
       text: NOTES
