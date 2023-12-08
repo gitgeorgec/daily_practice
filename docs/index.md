@@ -12,6 +12,9 @@ hero:
     - theme: brand
       text: ABOUT
       link: https://gitgeorgec.github.io/Personal_page/
+  # image:
+  #   src: https://github.com/gitgeorgec/Personal_page/blob/master/public/imgs/profile.png?raw=true
+  #   alt: hero-section-image
 
 features:
   - title: Leetcode
