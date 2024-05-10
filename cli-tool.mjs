@@ -41,7 +41,12 @@ const leetcodeDailyChallenge = await fetch(LEETCODE_API_ENDPOINT, {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify({ query: DAILY_CODING_CHALLENGE_QUERY }),
-}).then((res) => res.json());
+})
+  .then((res) => res.json())
+  .catch((e) => {
+    console.log("---fetch error---");
+    console.log(e);
+  });
 const {
   data: {
     activeDailyCodingChallengeQuestion: {
